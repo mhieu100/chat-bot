@@ -5,7 +5,7 @@ import { MedicineBoxOutlined, CalendarOutlined, DollarOutlined, ExclamationCircl
 const { Title, Text, Paragraph } = Typography;
 const { Option } = Select;
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://6840c1ed56b1.ngrok-free.app';
 
 const VaccineRecommendations = ({ onSelectVaccine }) => {
   const [vaccines, setVaccines] = useState([]);
